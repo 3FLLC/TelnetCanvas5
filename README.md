@@ -1,4 +1,4 @@
-**my.fTelnet.ca**
+**TelnetCanvas5**
 =============
 Original: <a href="https://github.com/rickparrish/fTelnet">fTelnet</a>.
 
