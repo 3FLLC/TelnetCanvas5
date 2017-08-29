@@ -1,18 +1,28 @@
 my.fTelnet.ca
 =============
+Original: <a href="https://github.com/rickparrish/fTelnet">fTelnet</a>.
 
-A web based websocket / telnet client meant for connecting to BBSes.  Basically it's <a href="https://github.com/rickparrish/fTelnet">fTelnet</a>, but targeted at users instead of SysOps.<br />
-<br />
-The project is using plain old HTML, CSS and JavaScript so can be hosted anywhere with very little effort.<br />
-<br />
-Some features are powered by jQuery (1.11.2) and the layout is Bootstrap (3.3.2) with a Bootswatch theme (Cyborg).
+Out Version Requirements:
+=========================
+HTML 5.0, JavaScript 3, CSS 3
 
-Features
-========
+Features:
+=========
+Cross-platform [HTML5 CANVAS]
+XModem, Xmodem-CRC, 1K-XModem, YModem, YModem-G upload and download
+ANSI-BBS (8, 16, 256, TrueColor), PET-ASCII, Commodore 64 and RIP emulation
+Variable font size based on window/device size
+Scrollback buffer
+Personal address book
+TouchScreen (sends ANSI x/y)
 
-Cross-platform (just need a browser supporting HTML5 Canvas and WebSockets)<br />
-YModem-G file transfers<br />
-ANSI-BBS, Commodore 64 and RIP emulation (RIP is still in early stages, not really ready for prime-time)<br />
-Variable font size based on window/device size<br />
-Scrollback buffer<br />
-Personal address book<br />
+Under Construction:
+===================
+Implement XModem's and Basic YModem (maybe even Telink and Modem7)
+Extending ANSI to understand all of the other colors
+Extending ASCII character set for PET-ASCII.
+Extending Character Set to Render UTF-8 (at least lined up to CP437)
+Finish the RIP emulation - may even introduce SVG
+Implement Mouse and TouchScreen Support
+
+* More Features to come - making this product work with ExchangeBBS, Modern Pascal and all of the BBS Game Code I own.
